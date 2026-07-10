@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-ul {
+.nav-ul ul{
   display: flex;
   list-style: none;
   gap: 24px;
@@ -28,9 +28,9 @@ a {
   border: none;
   cursor: pointer;
 }
-  /* <!-- navbar end --> */
+/* <!-- navbar end --> */
 
-  /* <!-- Hader start --> */
+/* <!-- Hader start --> */
 
 header {
   margin: 0 auto !important;
@@ -50,7 +50,6 @@ header {
   text-align: center;
   display: grid;
   gap: 8px;
-  /* justify-content: center; */
 }
 
 .hero-content h1 {
@@ -73,8 +72,6 @@ header {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  /* width: fit-content;
-  height: fit-content; */
   padding: 12px 12px;
 }
 
@@ -82,12 +79,12 @@ header {
 
 /* <!-- Meet the Speakers  start --> */
 
-.Speakers{
+.Speakers {
   padding: 80px;
   display: grid;
   justify-content: center;
 }
-.Speakers h1{
+.Speakers h1 {
   display: grid;
   text-align: center;
   margin-bottom: 56px;
@@ -95,29 +92,127 @@ header {
   font-size: 56px;
   font-weight: bold;
 }
-.Speakers .Speakers-intro{
+.Speakers .Speakers-intro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
-.category{
-  color: #2563EB;
+.category {
+  color: #2563eb;
   font-size: 12px;
   font-weight: 500;
 }
-.person{
-  background:white;
-  border:1px solid #ddd;
-  border-radius:15px;
+.person {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
 }
-.details{
+.details {
   padding: 12px;
   display: grid;
   gap: 10px;
 }
-.title{
+.title {
   font-size: 14px;
   color: #575757;
 }
 
- /* <!-- Meet the Speakers  end --> */
+/* <!-- Meet the Speakers  end --> */
+
+
+/* <!-- Secure Your Spot start --> */
+.pricing{
+  display: grid;
+  text-align: center;
+}
+.pricing-head{
+  display: grid;
+  gap: 12px;
+  padding: 48px;
+}
+.pricing-head h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+.pricing-head p{
+  font-size: 18px;
+  color: #575757;
+}
+
+
+.pricing-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 350px;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  padding: 40px 30px;
+  display: grid;
+  gap: 10px;
+  color: #333333;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.card p{
+  font-size: 13px;
+  color: #888888;
+}
+
+.active{
+  background-color: #0D1B2A;
+  color: #FFFFFF;
+}
+
+.price{
+  font-size: 44px;
+  font-weight: bold;
+}
+.card ul{
+  display: grid;
+  gap: 8px;
+  color: #7a7474;
+}
+li::marker{
+  color: #2563EB;
+}
+
+.std-btn{
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  color: #2563EB;
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 12px;
+}
+
+.pro-btn{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #2563EB;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 12px;
+}
+
+
+.team-btn{
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 12px;
+}
+
+/* <!-- Secure Your Spot End --> */
+
