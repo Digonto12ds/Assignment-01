@@ -262,3 +262,42 @@ li::marker {
   line-height: 1.6;
 }
 /* <!-- AI Part End --> */
+
+/* Footer part start */
+
+footer {
+  background-color: #0d1b2a;
+  text-align: center;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.footer-icon {
+  display: flex;
+  gap: 8px;
+}
+.footer-icon a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2563eb;
+}
+.footer-icon a:hover {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+  border-radius: 10px;
+}
+
+footer p {
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+  padding: 8px;
+}
+/* Footer part end */
