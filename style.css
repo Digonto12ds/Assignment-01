@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-around;
 }
-.nav-ul ul{
+.nav-ul ul {
   display: flex;
   list-style: none;
   gap: 24px;
@@ -119,34 +119,32 @@ header {
 
 /* <!-- Meet the Speakers  end --> */
 
-
 /* <!-- Secure Your Spot start --> */
-.pricing{
+.pricing {
   display: grid;
   text-align: center;
 }
-.pricing-head{
+.pricing-head {
   display: grid;
   gap: 12px;
   padding: 48px;
 }
-.pricing-head h1{
+.pricing-head h1 {
   font-size: 48px;
   font-weight: bold;
 }
-.pricing-head p{
+.pricing-head p {
   font-size: 18px;
   color: #575757;
 }
 
-
-.pricing-container{
+.pricing-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.card{
+.card {
   width: 350px;
   border: 1px solid #dcdcdc;
   border-radius: 12px;
@@ -157,57 +155,56 @@ header {
   font-size: 14px;
   margin-bottom: 20px;
 }
-.card p{
+.card p {
   font-size: 13px;
   color: #888888;
 }
 
-.active{
-  background-color: #0D1B2A;
-  color: #FFFFFF;
+.active {
+  background-color: #0d1b2a;
+  color: #ffffff;
 }
 
-.price{
+.price {
   font-size: 44px;
   font-weight: bold;
 }
-.card ul{
+.card ul {
   display: grid;
   gap: 8px;
   color: #7a7474;
 }
-li::marker{
-  color: #2563EB;
+li::marker {
+  color: #2563eb;
 }
 
-.std-btn{
+.std-btn {
   margin-top: 10px;
   font-size: 14px;
-  background-color: #FFFFFF;
-  color: #2563EB;
-  border: 1px solid #2563EB;
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
   border-radius: 8px;
   cursor: pointer;
   padding: 12px 12px;
 }
 
-.pro-btn{
+.pro-btn {
   margin-top: 10px;
   font-size: 14px;
   font-weight: 700;
-  background-color: #2563EB;
-  color: #FFFFFF;
+  background-color: #2563eb;
+  color: #ffffff;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   padding: 12px 12px;
 }
 
-
-.team-btn{
+.team-btn {
   margin-top: 10px;
   font-size: 14px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid;
   border-radius: 8px;
   cursor: pointer;
@@ -216,3 +213,52 @@ li::marker{
 
 /* <!-- Secure Your Spot End --> */
 
+/* <!-- AI Part Start --> */
+.benefits {
+  padding: 80px 10%;
+  text-align: center;
+  background: #f8f9fc;
+}
+
+.benefits h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  width: 60%;
+  margin: auto;
+  color: #666;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+.benefit-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  width: 250px;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+  margin-bottom: 15px;
+}
+
+.benefit-card p {
+  color: #666;
+  line-height: 1.6;
+}
+/* <!-- AI Part End --> */
